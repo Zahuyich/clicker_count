@@ -7,6 +7,10 @@ Python3 должен быть уже установлен. Затем испол
 pip install -r requirements.txt
 ```
 ### Как запустить 
+Получить BITLY_TOKEN можно по ссылке - https://bitly.is/accesstoken
+
+Токен должен находиться в .env файле, в формате - BITLY_TOKEN=ваш_токен
+
 Рекомендуется испоьзовать virtualenv/venv для изоляции проекта.
 
 Для запуска в терминале необходимо установить модуль python-dotenv:
